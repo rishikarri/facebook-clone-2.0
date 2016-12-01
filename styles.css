@@ -1,0 +1,117 @@
+img{
+	max-width: 100%;
+}
+/* use for styles on the entire page */
+#facebook-wrapper{
+
+}
+
+/* this header takes up the entire width of the page - style blue */
+#header{
+	height: 42px;
+	width: 100%;
+	background-color: #3b5998;
+	
+}
+
+/* Inner header and its child elements*/
+#header-inner{
+	height: 42px;
+	width: 80%;
+	background-color: red;
+	margin: auto;
+}
+
+/* left header items */
+
+#left-header{
+	float: left;
+
+}
+
+#left-header div{
+	float: left;
+}
+
+#search-bar input{
+	width: 310px;
+}
+
+#left-header button{
+
+}
+
+
+
+/* right header items */
+
+#right-header{
+	float: right;
+}
+
+#right-header div{
+	float: left;
+}
+
+#mini-profile-pic{
+	height: 24px;
+	width: 24px;
+
+}
+
+/* styling for facebook icons */
+
+.icon{
+	background-image: url('fb_sprite.png');
+	background-size: 26px 905px;
+	
+}
+
+#friend-request{
+	background-position: 0px -188px;
+	height: 24px;
+	width: 24px;
+}
+
+#messages{
+	background-position: 0px -363px;
+	height: 24px;
+	width: 24px;
+}
+
+#notifications{
+	background-position: 0 -238px;
+	height: 24px;
+	width: 24px;
+}
+
+#lock{
+	background-position: 0 -859px;
+	height: 16px;
+	width: 16px;
+}
+
+#arrow{
+	background-position: 0 -825px;
+	height: 16px;
+	width: 16px;
+
+}
+
+#fb-logo{
+	background-position: 0 -163px;
+	height: 24px;
+	width: 24px;
+}
+
+
+/* magnifying glass is the only one that pulls from png2 */
+#magnifying-glass{
+	background-image: url('fb_sprite_2.png');
+	background-size: 82px 241px;
+	background-position: -54px -207px;
+	height: 14px;
+	width: 14px;
+}
+
+
