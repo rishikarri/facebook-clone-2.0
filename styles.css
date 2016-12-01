@@ -105,7 +105,9 @@ img{
 #my-name{
 	color: white;
 	margin-left: 5px;
-	
+	line-height: 25.3px;
+	margin-right: 10px;
+	font-size: 12px;
 
 }
 
@@ -113,6 +115,8 @@ img{
 	color: white;
 	text-decoration: none;
 	margin-left: 10px;
+	line-height: 25.3px;
+	font-size: 12px;
 }
 
 #friend-request{
@@ -137,7 +141,7 @@ img{
 	margin-right: 10px;
 }
 
-#line{
+.line{
 	color: grey;
 	font-size: 20px;
 	font-weight: 100;
