@@ -1,3 +1,7 @@
+html{
+	font-family: Helvetica;
+}
+
 img{
 	max-width: 100%;
 }
@@ -18,8 +22,11 @@ img{
 #header-inner{
 	height: 42px;
 	width: 80%;
-	background-color: red;
 	margin: auto;
+}
+
+#header-inner div{
+	margin-top: 4px;
 }
 
 /* left header items */
@@ -35,10 +42,17 @@ img{
 
 #search-bar input{
 	width: 310px;
+	height: 18px;
+	border-radius: 5px;
+	margin-left: 7px;
 }
 
 #left-header button{
-
+	margin-top: 4px;
+	margin-left: -6px;
+	height: 25.3px;
+	border-radius: 5px;
+	background-color: lightgrey;
 }
 
 
@@ -53,49 +67,15 @@ img{
 	float: left;
 }
 
-#mini-profile-pic{
-	height: 24px;
-	width: 24px;
 
-}
 
 /* styling for facebook icons */
 
 .icon{
 	background-image: url('fb_sprite.png');
 	background-size: 26px 905px;
+	margin-left: 5px;
 	
-}
-
-#friend-request{
-	background-position: 0px -188px;
-	height: 24px;
-	width: 24px;
-}
-
-#messages{
-	background-position: 0px -363px;
-	height: 24px;
-	width: 24px;
-}
-
-#notifications{
-	background-position: 0 -238px;
-	height: 24px;
-	width: 24px;
-}
-
-#lock{
-	background-position: 0 -859px;
-	height: 16px;
-	width: 16px;
-}
-
-#arrow{
-	background-position: 0 -825px;
-	height: 16px;
-	width: 16px;
-
 }
 
 #fb-logo{
@@ -110,8 +90,73 @@ img{
 	background-image: url('fb_sprite_2.png');
 	background-size: 82px 241px;
 	background-position: -54px -207px;
-	height: 14px;
-	width: 14px;
+	height: 17px;
+	width: 17px;
+	border-radius: 5px;
+
 }
+
+#mini-profile-pic{
+	height: 24px;
+	width: 24px;
+
+}
+
+#my-name{
+	color: white;
+	margin-left: 5px;
+	
+
+}
+
+#home-link a{
+	color: white;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+#friend-request{
+	background-position: 0px -188px;
+	height: 24px;
+	width: 24px;
+	margin-left: 10px;
+}
+
+#messages{
+	background-position: 0px -338px;
+	height: 24px;
+	width: 24px;
+	margin-left: 10px;
+}
+
+#notifications{
+	background-position: 0 -238px;
+	height: 24px;
+	width: 24px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#line{
+	color: grey;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+#lock{
+	background-position: 0 -859px;
+	height: 16px;
+	width: 16px;
+	margin-left: 10px;
+}
+
+#arrow{
+	background-position: 0 -825px;
+	height: 16px;
+	width: 16px;
+
+}
+
+
 
 
