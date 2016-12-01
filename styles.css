@@ -155,7 +155,7 @@ img{
 	margin-left: 10px;
 }
 
-#arrow{
+.arrow{
 	background-position: 0 -825px;
 	height: 16px;
 	width: 16px;
@@ -167,15 +167,20 @@ img{
 #cover-photo-section-wrapper{
 	width: 100%;
 	height: 358px;
-	background-color: blue;
+	background-color: #E9EBEE;
+	
+	
 	
 }
 
 #cover-photo-section-inner{
 	height: 358px;
+	/* what the actual size is^^ */
+	
 	width: 75%;
-	background-color: green;
+	background-color: white;
 	margin: auto;
+	position: relative;
 }
 
 /* section1 of the cover photo section  */
@@ -184,36 +189,120 @@ img{
 	width: 100%;
 }
 
+#menu{
+	height: 43px;
+	line-height: 43px;
+	width: 100%;
+}
+
 .menu-item{
 	float: left;
 	text-align: center;
+	color: #365899;
 }
 
 .blank-space{
 	width: 20%;
 	color: white;
+	min-height: 1px;
 
 }
 
 #timeline{
 	width: 10%;
+	border-right: solid lightgrey 1px;
+	border-left: solid lightgrey 1px;
+
 }
 
 #about{
 	width: 10%;
+	border-right: solid lightgrey 1px;
+
 }
 
 #friends{
-	width: 15%
+	width: 15%;	
+	border-right: solid lightgrey 1px;
+
 }
 
 #photos{
-	width: 7.5%;
+	width: 8%;
+	border-right: solid lightgrey 1px;
 }
 
 #more{
-	width: 7.5%
+	width: 8%;
+	border-right: solid lightgrey 1px;
+	display: inline-block;
+
 }
+
+#more p{
+	display: inline-block;
+	padding-left: 10px;
+}
+
+#more-arrow{
+	display: inline-block;
+	margin-top: 15px;
+}
+
+
+/* section2 of coverphoto section */
+#cover-photo-section2{
+	overflow: hidden;
+	position: absolute;
+	bottom: 18px;
+	left: 9px;
+	width: 100%;
+}
+#profile-picture img{
+	height: 168px;
+	width: 168px;
+	border: solid white 5px;
+	float: left;
+}
+
+#my-name-cover-photo{
+	color: black;
+	float: left;
+}
+#cover-photo-section2-buttons{
+	margin-left: 719px;
+	margin-top: 108px;
+}
+#cover-photo-section2-buttons button{
+	background-color: white;
+	color: #4b4f56;
+	font-weight: bold;
+	height: 30px;
+
+}
+
+#my-name-cover-photo{
+	color: black;
+	margin-left: 20px;
+	margin-top: 117px;
+	font-size: 24px;
+}
+
+#view-activity{
+	padding-left: 9px;
+	padding-right: 9px;
+}
+
+#dots{
+	margin-left: -10px;
+	padding-left: 9px;
+	padding-right: 9px;
+}
+
+
+
+
+
 
 
 
